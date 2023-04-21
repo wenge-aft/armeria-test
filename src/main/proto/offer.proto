@@ -1,0 +1,14 @@
+//TODO: replace this file with service-specific API definition
+
+syntax = "proto3";
+
+package test;
+
+option java_package = "test";
+option java_outer_classname = "OfferProto";
+
+message Offer {
+  string id = 1;
+  string name = 2;
+  string test_description = 3;
+}
